@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Назва вашої робочої гілки
+      - dev
 
 jobs:
   build-and-deploy:
