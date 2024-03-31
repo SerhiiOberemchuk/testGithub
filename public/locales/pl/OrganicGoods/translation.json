@@ -1,0 +1,38 @@
+{
+  "OrganicProducts": "Produkty organiczne",
+
+  "Category1": {
+    "0": "Świeże i pachnące",
+    "1": "Jagody",
+    "2": "Nabiał",
+    "3": "Jagody",
+    "4": "Warzywa"
+  },
+  
+  "Category2": {
+    "0": "Chrupiące i soczyste",
+    "1": "Nabiał",
+    "2": "Jagody",
+    "3": "Ziołowe herbaty",
+    "4": "Jagody zamrażania szokowego"
+  },
+
+  "Description1": {
+    "0": "Eko-Skarbiec Ukrainy: produkty organiczne",
+    "1": "Lokhina to niezrównany dar natury",
+    "2": "Mleko to naturalny skarb o niepowtarzalnym smaku",
+    "3": "Truskawki - najdelikatniejsza wiosenna radość",
+    "4": "Ogórki mielone - świeże i smaczne lato"
+  },
+
+   "Description2": {
+    "0": "Serce ziemi w każdym produkcie: odkryj Ukrainę",
+    "1": "Różnorodność serów - od bogatych po delikatne",
+    "2": "Jeżyna - ciemna soczystość, ukrywająca smak lata",
+    "3": "Herbaty Karpackie: magiczna kolekcja ziół",
+    "4": "Mieszanka jagodowa - świeżość i smak natury"
+  },
+
+   "Quality": "Jakość organiczna"
+}
+

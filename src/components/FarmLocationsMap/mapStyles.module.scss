@@ -1,0 +1,23 @@
+.map_container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // position: relative;
+  h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: var(--secondary-brown-950);
+    margin-bottom: 48px;
+  }
+
+  svg {
+    // position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,53 @@
+:root {
+
+    --white: #fff;
+    --primary-green-50: #f9fbea;
+    --primary-green-100: #f1f6d1;
+    --primary-green-200: #e3eea8;
+    --primary-green-300: #cee175;
+    --primary-green-400: #b7d04b;
+    --primary-green-500: #99b62c;
+    --primary-green-600: #78911f;
+    --primary-green-700: #5b6f1c;
+    --primary-green-800: #49581c;
+    --primary-green-900: #3e4b1c;
+    --primary-green-950: #20290a;
+    --secondary-brown-50: #faf7f6;
+    --secondary-brown-100: #f4edeb;
+    --secondary-brown-200: #ece0dc;
+    --secondary-brown-300: #dec9c3;
+    --secondary-brown-400: #c9a9a0;
+    --secondary-brown-500: #b48b7f;
+    --secondary-brown-600: #9d7165;
+    --secondary-brown-700: #835d52;
+    --secondary-brown-800: #6e4f46;
+    --secondary-brown-900: #5d463f;
+    --secondary-brown-950: #31221e;
+    --grey-50: #f7f7f7;
+    --grey-100: #ececed;
+    --grey-200: #e3e3e4;
+    --grey-300: #c7c7c9;
+    --grey-400: #acacae;
+    --grey-500: #97979a;
+    --grey-600: #87868a;
+    --grey-700: #79797c;
+    --grey-800: #656568;
+    --grey-900: #535355;
+    --grey-950: #353536;
+
+
+    --font-family: "Jost", sans-serif;
+    --second-family: "Source Sans 3", sans-serif;
+    --third-family: "SF Pro Display", sans-serif;
+    --font3: "Nunito", sans-serif;
+    --font4: "Inter", sans-serif;
+    --font5: "Pacifico", sans-serif;
+    --font6: "Roboto", sans-serif;
+    --font7: "Open Sans", sans-serif;
+
+
+    --mobile: 420px;
+    --tablet: 768px;
+    --desktop: 1440px;
+
+}

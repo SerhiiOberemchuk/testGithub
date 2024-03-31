@@ -1,9 +1,0 @@
-{
-  "extends": "stylelint-config-standard",
-  "rules": {
-    "color-hex-case": "lower",
-    "color-hex-length": "short",
-    "indentation": 2,
-    "number-leading-zero": "never"
-  }
-}

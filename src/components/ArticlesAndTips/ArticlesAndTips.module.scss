@@ -1,0 +1,126 @@
+
+
+.customNavigationBlock {
+    display: flex;
+    justify-content: space-between;
+    max-width: 104px;
+    gap: 16px;
+
+    .customPrevButton,
+    .customNextButton {
+        width: 44px;
+        height: 44px;
+        border-radius: 50px;
+        background-color: var(--secondary-brown-50);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            background-color: var(--light-grey);
+        }
+    }
+
+    .customNextButton {
+        transform: rotate(180deg);
+    }
+}
+
+.sectionHeader {
+max-width: 1195px;
+margin-bottom: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 5px;
+
+}
+
+.sectionTitle {
+font-family: var(--second-family);
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 58px;
+        color: var(--secondary-brown-900);
+
+}
+.articlesSection {
+    margin-top: 150px;
+}
+
+.sliders {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    
+}
+
+.article {
+    position: relative;
+    height: 500px;
+    
+}
+
+
+
+.articleImg {
+    max-width: 486px;
+    max-height: 500px;
+    border-radius: 20px;
+}
+
+.date {
+    font-size: 16;
+    font-weight: 400;
+    font-family: var(--second-family);
+    background-color: var(--primary-green-400);
+    color: var(--white);
+    opacity: 80%;
+    width: 120px;
+    height: 39px;
+    border-radius: 0 20px 20px 0;
+    padding-left: 32px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 32px;
+    left: 10px;
+}
+
+.articleTitle {
+    font-family: var(--second-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 422px;
+    position: absolute;
+    top: 334px;
+    left: 42px;
+    font-size: 24px;
+    line-height: 1.15;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.arrowBtn {
+width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 44px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(246, 246, 246, 0.2) ;
+    color: var(--white);
+
+    
+}
+
+
+
+
+
