@@ -1,0 +1,37 @@
+{
+  "OrganicProducts": "Organic products",
+
+  "Category1": {
+    "0": "Fresh and fragrant",
+    "1": "Berries",
+    "2": "Dairy products",
+    "3": "Berries",
+    "4": "Vegetables"
+  },
+
+  "Category2": {
+    "0": "Crispy and juicy",
+    "1": "Dairy products",
+    "2": "Berries",
+    "3": "Herbal teas",
+    "4": "Berries of shock freezing"
+  },
+
+  "Description1": {
+    "0": "Eco-treasury of Ukraine: organic products",
+    "1": "Blueberry is an unparalleled gift of nature",
+    "2": "Milk is a natural treasure with a unique taste",
+    "3": "Strawberries are the most tender spring joy",
+    "4": "Ground cucumbers - fresh and tasty summer"
+  },
+
+   "Description2": {
+    "0": "The earth's heart in every product: discover Ukraine",
+    "1": "A variety of cheeses - from rich to delicate",
+    "2": "Blackberry: dark juiciness embracing summer's taste",
+    "3": "Carpathian tea is a magical collection of herbal flavors",
+    "4": "Berry mix preserves nature's freshness and taste"
+  },
+
+   "Quality": "Organic quality"
+}

@@ -1,0 +1,114 @@
+.heroSection {
+  margin-bottom: 139px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heroContainer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  // max-width: 420px;
+  max-width: 767px;
+
+  @media (min-width: 768px) {
+    max-width: 1439px;
+  }
+
+  @media (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}
+.mainImage {
+  z-index: 0;
+}
+.bottomImage {
+  z-index: 1;
+  position: absolute;
+  bottom: -59px;
+  width: 100%;
+  pointer-events: none;
+}
+.heroTextBox {
+  z-index: 1;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  width: 388px;
+
+  @media (min-width: 768px) {
+    top: 268px;
+    width: 530px;
+  }
+  @media (min-width: 1440px) {
+    width: 772px;
+  }
+}
+.mainText {
+  padding-bottom: 20px;
+  font-family: var(--font-family);
+  transition: font-family 0.5s ease;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 124%;
+  text-align: center;
+  color: transparent;
+  background-image: url('../../assets/images/Hero/TextBackground.webp');
+  background-size: 100% auto;
+  background-position: 0px -490px;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @media (min-width: 768px) {
+    font-size: 44px;
+  }
+  @media (min-width: 1440px) {
+    font-weight: 700;
+    font-size: 70px;
+  }
+}
+.firstSlide {
+  font-family: var(--font5);
+  transition: font-family 0.5s ease;
+}
+.secondText {
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 414px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 132%;
+  color: var(--secondary-brown-900);
+  text-align: center;
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}
+.customPrevButton,
+.customNextButton {
+  z-index: 1;
+  position: absolute;
+  top: 380px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: var(--secondary-brown-50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: var(--grey-50);
+  }
+}
+.customPrevButton {
+  left: 120px;
+}
+.customNextButton {
+  right: 120px;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,149 @@
+.organicProductsSection {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 150px 0 0 120px;
+
+  @media (max-width: 1400px) {
+    padding: 150px 0 0 100px;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 150px 0 0 70px;
+  }
+
+  @media (max-width: 900px) {
+    padding: 150px 0 0 50px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 150px 0 0 32px;
+  }
+}
+
+.organicProductsSectionHeader {
+  max-width: 1435px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  padding-right: 120px;
+
+  @media (max-width: 1400px) {
+    padding-right: 100px;
+  }
+
+  @media (max-width: 1200px) {
+    padding-right: 70px;
+  }
+
+  @media (max-width: 900px) {
+    padding-right: 50px;
+  }
+
+  @media (max-width: 768px) {
+    padding-right: 32px;
+  }
+}
+
+.organicProductsSectionTitle {
+  font-family: var(--font-family);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  color: var(--secondary-brown-900);
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+.customNavigationBlock {
+  display: flex;
+  justify-content: space-between;
+  max-width: 104px;
+  gap: 16px;
+
+  .customPrevButton,
+  .customNextButton {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: var(--secondary-brown-50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: var(--light-grey);
+    }
+  }
+  .customNextButton {
+    transform: rotate(180deg);
+  }
+}
+
+.organicProductsSwiper {
+  padding: 5px 0 24px 5px;
+}
+
+.organicProductsSwiperSlide {
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow:
+    0 1px 3px 0 rgba(93, 70, 63, 0.3),
+    0 4px 8px 3px rgba(93, 70, 63, 0.15);
+  cursor: grab;
+
+  @media (max-width: 768px) {
+    height: 479px;
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+  .organicImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.organicProductsSwiperSlideWrapper {
+  padding: 0px 32px 26px;
+  font-family: var(--second-family);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 160px;
+
+  @media (max-width: 900px) {
+    height: 140px;
+  }
+}
+
+.organicProductsSwiperSlideTitle {
+  color: var(--secondary-brown-600);
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.organicProductsSwiperSlideDescription {
+  color: var(--secondary-brown-950);
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.organicProductsSwiperSlideQuality {
+  color: var(--primary-green-600);
+  font-size: 14px;
+  line-height: 1.43;
+  margin-top: 20px;
+}

@@ -1,0 +1,24 @@
+.customNavigationBlock {
+  display: flex;
+  justify-content: space-between;
+  max-width: 104px;
+  gap: 16px;
+
+  .customPrevButton,
+  .customNextButton {
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: var(--secondary-brown-50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background-color: var(--light-grey);
+    }
+  }
+  .customNextButton {
+    transform: rotate(180deg);
+  }
+}

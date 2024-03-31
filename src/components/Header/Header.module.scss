@@ -1,0 +1,48 @@
+.headerSection {
+  //   max-width: 1440px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 999;
+  @media screen and (min-width: 768px) {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+}
+
+.headerBox {
+  // position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkBox {
+  display: none;
+  justify-content: space-between;
+  max-width: 299px;
+  width: 100%;
+  align-items: center;
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+.buttonOpenModal {
+  display: flex;
+  // flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  stroke-width: 2px;
+  stroke: var(--secondary-brown-800);
+  width: 44px;
+  height: 44px;
+  background-color: inherit;
+  @media (min-width: 1440px) {
+    display: none;
+  }
+}

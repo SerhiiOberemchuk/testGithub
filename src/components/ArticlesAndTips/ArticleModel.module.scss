@@ -1,0 +1,67 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #B48B7F80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+
+}
+
+.articleContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 56px 32px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+}
+
+.modalImg {
+  width: 520px;
+}
+
+.modalCloseBtn {
+  position: absolute;
+  top: 37px;
+  right: 37px;
+  background: none;
+}
+
+.articleText {
+  padding-left: 14px;
+}
+
+.modalTitle {
+  font-family: var(--second-family);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.modalContent {
+  font-family: var(--second-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.44;
+}
+
+.modalDate {
+  font-family: var(--second-family);
+  color: var(--secondary-brown-600);
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 66px;
+  left: 570px;
+}

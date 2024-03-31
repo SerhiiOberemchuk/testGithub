@@ -1,0 +1,128 @@
+.footer {
+  background-color: var(--primary-green-50);
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    top: -13%;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background-image: url('../../assets/footer/background_decor.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.footerWrapper {
+  margin-top: 130px;
+  padding-top: 128px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footerLogoSocials {
+  flex: 0 0 25%;
+
+  .footerSocials {
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+  }
+  .social {
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover path {
+      fill: var(--primary-green-500);
+    }
+  }
+}
+
+.footerNavigation {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  justify-content: center;
+  align-items: center;
+
+  & p {
+    font-family: var(--second-family);
+    font-weight: 600;
+  }
+
+  & p a {
+    transition: 0.3s ease;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  & span {
+    font-weight: 400;
+  }
+}
+
+.footerContacts {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+  justify-content: space-between;
+  align-items: end;
+
+  .contacts {
+    margin-top: 24px;
+    padding: 24px 16px 24px 45px;
+    border: 1px solid var(--secondary-brown-400);
+    border-radius: 20px;
+    font-family: var(--second-family);
+
+    .phone,
+    .email {
+      position: relative;
+      color: var(--secondary-brown-700);
+      font-weight: 500;
+      line-height: 1.8;
+      transition: all 0.3s ease;
+      &:hover {
+        color: var(--primary-green-500);
+      }
+    }
+
+    .phone {
+      margin-bottom: 8px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: -30px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+        background-image: url('./../../assets/icons/phone.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .email {
+      margin-top: 24px;
+      &::before {
+        content: '';
+        position: absolute;
+        left: -30px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+        background-image: url('./../../assets/icons/email.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

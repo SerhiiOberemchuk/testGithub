@@ -1,0 +1,55 @@
+.scrollButton {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  right: 5vw;
+  bottom: 10vh;
+  width: 64px;
+  height: 64px;
+  background-color: var(--secondary-brown-100);
+  box-shadow:
+    0 1px 3px 1px rgba(93, 70, 63, 0.15),
+    0 1px 2px 0 rgba(93, 70, 63, 0.3);
+  animation: menuAppear 0.5s ease forwards;
+  transition: 0.3s ease;
+  .scrollArrow {
+    width: 24px;
+    height: 24px;
+    transform: rotate(90deg);
+    path {
+      fill: var(--secondary-brown-950);
+      transition: fill 0.3s ease;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: var(--secondary-brown-200);
+    .scrollArrow path {
+      fill: var(--secondary-brown-600);
+    }
+  }
+}
+@keyframes menuAppear {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes menuDisappear {
+  100% {
+    transform: scale(0);
+  }
+
+  0% {
+    transform: scale(1);
+  }
+}
+.hide {
+  animation: menuDisappear 0.5s ease forwards;
+}
